@@ -6,11 +6,10 @@ Developed by **Bibek Singh**.
 
 The project is a **Vite + React + TypeScript** web app. It is also a **Progressive Web App (PWA)**, so it can be installed on Android, iPhone/iPad, Windows, and macOS from the browser — no separate app-store package is required.
 
-## Hosted copy and downloads
+## LIVE Demo and downloads
 
-- **Hosted copy:** <https://quizpaper-dqm3n3jywre.qoder.website>
-- **Source for GitHub + Vercel:** <https://quizpaper-dqm3n3jywre.qoder.website/smartquiz-source-github-vercel.zip> — every file sits at the archive root, so `package.json` and `src/` are visible immediately after extraction. Extract it straight into the repository root; do not add another folder level.
-- **Prebuilt static site:** <https://quizpaper-dqm3n3jywre.qoder.website/smartquiz-deploy.zip> — root contains `index.html` and `assets/`; upload that root, not its parent folder.
+- **LIVE DEMO:** <https://smart-quize-test.vercel.app/>
+- **Source for GitHub :** <https://github.com/bibeksingh9827644272/SmartQuize-Test.git> — every file sits at the archive root, so `package.json` and `src/` are visible immediately after extraction. Extract it straight into the repository root; do not add another folder level.
 
 ## Run locally
 
@@ -34,7 +33,7 @@ The complete static site is written to `dist/`.
 ## Push to GitHub and deploy with Vercel
 
 1. Create a new repository on GitHub.
-2. Extract `smartquiz-source-github-vercel.zip` and put its **contents** in the repository root. The repository root must directly contain `package.json`, `index.html`, `src/`, `public/`, `vite.config.ts`, `tsconfig.json`, and `vercel.json`. Do not commit `node_modules/` or `dist/`, and do not leave everything inside a `smartquiz/` subfolder.
+2. Extract `smartquiz` and put its **contents** in the repository root. The repository root must directly contain `package.json`, `index.html`, `src/`, `public/`, `vite.config.ts`, `tsconfig.json`, and `vercel.json`. Do not commit `node_modules/` or `dist/`, and do not leave everything inside a `smartquiz/` subfolder.
 3. Commit and push.
 4. In Vercel, choose **Add New → Project**, import the repository, and deploy.
 5. On the import screen, leave **Root Directory** empty (it must point at the folder that contains `package.json`). Vercel reads `vercel.json` and uses:
