@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="SmartQuiz app icon">
+  <rect width="512" height="512" fill="#132d26"/>
+  <circle cx="256" cy="222" r="196" fill="#1b4236" opacity="0.68"/>
+  <circle cx="400" cy="92" r="120" fill="#d99733" opacity="0.13"/>
+  <path d="M169 111h123l62 62v228H169z" fill="#fbf6eb"/>
+  <path d="M292 111v62h62" fill="#d9a441"/>
+  <path d="M292 173h62" fill="none" stroke="#fbf6eb" stroke-width="4"/>
+  <path d="M206 280l29-17 23 27 63-78 27 22-89 111z" fill="#163a30"/>
+  <rect x="212" y="344" width="92" height="13" rx="6.5" fill="#c9bda7"/>
+</svg>

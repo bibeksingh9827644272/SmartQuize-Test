@@ -1,0 +1,64 @@
+{
+  "id": "./",
+  "name": "SmartQuiz — Smart Exam Studio",
+  "short_name": "SmartQuiz",
+  "description": "Turn a PDF, photo, or handwritten paper into a timed MCQ exam, then sit it in the browser.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f5f0e6",
+  "theme_color": "#132d26",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Student exam hall",
+      "short_name": "Exam hall",
+      "description": "Sign in and join a timed paper.",
+      "url": "./#/login?role=student",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Teacher / Examiner studio",
+      "short_name": "Studio",
+      "description": "Build, publish, and review papers.",
+      "url": "./#/login?role=admin",
+      "icons": [
+        {
+          "src": "./icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
+}
